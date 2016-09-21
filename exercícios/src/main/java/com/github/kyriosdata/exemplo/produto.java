@@ -1,33 +1,36 @@
+
 package main.java.com.github.kyriosdata.exemplo;
 
-import java.util.Scanner;
-
+/**
+ *
+ * @author saulocalixto
+ */
 public class produto {
 
-	public static void main(String[] args) {
-		
-		Scanner ler = new Scanner(System.in);
-		
-		int a, b, maior, parcela;
-		
-		System.out.println("Digite os dois números que deseja multiplicar:");
-		
-		a = Integer.parseInt(ler.nextLine());
-		b = Integer.parseInt(ler.nextLine());
-		
-		maior = (a > b) ? a : b;
-		parcela = (a < b) ? a : b;
-		
-		int cont = 0, resultado = 0;
-		
-		while(cont < maior){
-			
-			resultado += parcela;
-			cont++;
-		}
-		
-		System.out.println("A multiplicação entre os número digitados é: " + resultado);
+    static private int maior;
+    static private int parcela;
+    static private int result = 0;
 
-	}
+    public static void resultado(int a, int b) {
+        
+        if(a >= 0 && b >= 0) {
+            maior = (a > b) ? a : b;
+            parcela = (a < b) ? a : b;
 
+            int cont = 0;
+
+            while (cont < maior) {
+
+                result += parcela;
+                cont++;
+            }
+
+            System.out.println("A multiplicação entre os número digitados é: " + result);
+        }
+        else {
+            throw new IllegalArgumentException("Número inválido.");
+        }
+
+    }
+    
 }
