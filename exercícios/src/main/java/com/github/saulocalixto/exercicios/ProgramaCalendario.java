@@ -3,7 +3,7 @@
  * Creative Commons Attribution 4.0 International License.
  */
 
-package com.github.kyriosdata.exemplo;
+package main.java.com.github.saulocalixto.exercicios;
 
 /**
  * Programa que ilustra a obtenção do dia da semana
@@ -12,6 +12,11 @@ package com.github.kyriosdata.exemplo;
  */
 public class ProgramaCalendario
 {
+
+    /**
+     *
+     * @param args
+     */
     public static void main(String[] args) {
         System.out.println(Calendario.diaDaSemana(1, 2, 2013));
     }

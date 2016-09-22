@@ -1,5 +1,5 @@
 
-package main.java.com.github.kyriosdata.exemplo;
+package main.java.com.github.saulocalixto.exercicios;
 
 /**
  *
@@ -11,7 +11,12 @@ public class produto {
     static private int parcela;
     static private int result = 0;
 
-    public static void resultado(int a, int b) {
+    /**
+     *
+     * @param a
+     * @param b
+     */
+    public static int resultado(int a, int b) {
         
         if(a >= 0 && b >= 0) {
             maior = (a > b) ? a : b;
@@ -25,7 +30,7 @@ public class produto {
                 cont++;
             }
 
-            System.out.println("A multiplicação entre os número digitados é: " + result);
+            return (result);
         }
         else {
             throw new IllegalArgumentException("Número inválido.");

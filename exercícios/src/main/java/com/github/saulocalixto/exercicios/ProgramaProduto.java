@@ -1,10 +1,18 @@
-package main.java.com.github.kyriosdata.exemplo;
+package main.java.com.github.saulocalixto.exercicios;
 
 import java.util.Scanner;
 
+/**
+ *
+ * @author aluno
+ */
 public class ProgramaProduto {
 
-	public static void main(String[] args) {
+    /**
+     *
+     * @param args
+     */
+    public static void main(String[] args) {
 		
 		Scanner ler = new Scanner(System.in);
 		

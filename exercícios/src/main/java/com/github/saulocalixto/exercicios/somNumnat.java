@@ -1,10 +1,18 @@
-package main.java.com.github.kyriosdata.exemplo;
+package main.java.com.github.saulocalixto.exercicios;
 
 import java.util.Scanner;
 
+/**
+ *
+ * @author aluno
+ */
 public class somNumnat {
 
-	public static void main(String[] args) {
+    /**
+     *
+     * @param args
+     */
+    public static void main(String[] args) {
 		
 		System.out.println("Entre com o número de números naturais consecutivos que deseja somar:");
 		
@@ -21,6 +29,10 @@ public class somNumnat {
 
 	}
 
+    /**
+     *
+     * @param i
+     */
     public static void somNume(int i) {
         if(i < 0) {
             throw new IllegalArgumentException("Número inválido."); //To change body of generated methods, choose Tools | Templates.

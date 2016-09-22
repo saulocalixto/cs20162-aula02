@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.github.kyriosdata.exemplo;
+package test.java.com.github.saulocalixto.exercicios;
 
-import main.java.com.github.kyriosdata.exemplo.somNumnat;
+import main.java.com.github.saulocalixto.exercicios.somNumnat;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;

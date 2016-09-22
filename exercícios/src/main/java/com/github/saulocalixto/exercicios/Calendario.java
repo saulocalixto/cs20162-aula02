@@ -3,7 +3,7 @@
  * Creative Commons Attribution 4.0 International License.
  */
 
-package com.github.kyriosdata.exemplo;
+package main.java.com.github.saulocalixto.exercicios;
 
 import java.time.LocalDate;
 

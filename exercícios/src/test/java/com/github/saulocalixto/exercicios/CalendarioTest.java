@@ -1,5 +1,6 @@
-package com.github.kyriosdata.exemplo;
+package test.java.com.github.saulocalixto.exercicios;
 
+import main.java.com.github.saulocalixto.exercicios.Calendario;
 import org.junit.Test;
 
 import java.time.LocalDate;

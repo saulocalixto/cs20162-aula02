@@ -1,6 +1,6 @@
-package com.github.kyriosdata.exemplo;
+package test.java.com.github.saulocalixto.exercicios;
 
-import main.java.com.github.kyriosdata.exemplo.produto;
+import main.java.com.github.saulocalixto.exercicios.Mdc;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
@@ -12,36 +12,28 @@ import static org.junit.Assert.*;
  *
  * @author saulocalixto
  */
-public class produtoTest {
+public class MdcTest {
     
     @Test(expected = IllegalArgumentException.class)
     public void numInvalidoa() {
 
-        produto.resultado(-1, 4);
+        Mdc.mDc(10, 3);
     }
 
     @Test(expected = IllegalArgumentException.class)
     public void numInvalidob() {
 
-        produto.resultado(1, -4);
+        Mdc.mDc(-15, -7);
     }
 
-    @Test(expected = IllegalArgumentException.class)
-    public void numInvalidoab() {
-
-        produto.resultado(-1, -4);
-    }
     @Test
     public void numValido() {
         
-        produto.resultado(1, 4);
+        Mdc.mDc(15, 20);
     }
     
     @Test
     public void apenasParaAgradarJacocoTool100PorCentoCobertura() {
-        new produto();
-    }
-
-   
-    
+        new Mdc();
+    }    
 }
