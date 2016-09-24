@@ -1,5 +1,5 @@
-# exemplo
-Projeto de referência (exemplo) básico em Java.
+# Lista 2 - Implementação de Algoritmos
+Projeto que implementa os algoritmos propostos na aula 2 da matéria de Construção de Software.
 
 ## Lembretes...
 - `mvn javadoc:javadoc` (geração de documentação)
