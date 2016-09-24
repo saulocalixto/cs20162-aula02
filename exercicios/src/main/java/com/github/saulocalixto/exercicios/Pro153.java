@@ -1,4 +1,4 @@
-package main.java.com.github.saulocalixto.exercicios;
+package com.github.saulocalixto.exercicios;
 
 /**
  *Algoritmo que verifica se o número tem a propriedade 153.

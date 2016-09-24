@@ -5,7 +5,7 @@
  */
 package test.java.com.github.saulocalixto.exercicios;
 
-import main.java.com.github.saulocalixto.exercicios.Pro3025;
+import com.github.saulocalixto.exercicios.Pro3025;
 import org.junit.Test;
 
 /**

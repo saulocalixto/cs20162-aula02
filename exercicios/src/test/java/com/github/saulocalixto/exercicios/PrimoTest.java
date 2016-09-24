@@ -5,7 +5,7 @@
  */
 package test.java.com.github.saulocalixto.exercicios;
 
-import main.java.com.github.saulocalixto.exercicios.Primo;
+import com.github.saulocalixto.exercicios.Primo;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;

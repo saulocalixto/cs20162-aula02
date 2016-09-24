@@ -1,6 +1,6 @@
 package test.java.com.github.saulocalixto.exercicios;
 
-import main.java.com.github.saulocalixto.exercicios.Erastotenes;
+import com.github.saulocalixto.exercicios.Erastotenes;
 import org.junit.Test;
 
 /**

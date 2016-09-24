@@ -1,4 +1,4 @@
-package main.java.com.github.saulocalixto.exercicios;
+package com.github.saulocalixto.exercicios;
 
 /*
  * To change this license header, choose License Headers in Project Properties.

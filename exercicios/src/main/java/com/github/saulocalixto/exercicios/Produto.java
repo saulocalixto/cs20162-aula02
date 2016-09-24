@@ -1,4 +1,4 @@
-package main.java.com.github.saulocalixto.exercicios;
+package com.github.saulocalixto.exercicios;
 
 /**
  *Algoritmo que faz o produto de dois números.

@@ -1,6 +1,6 @@
 package test.java.com.github.saulocalixto.exercicios;
 
-import main.java.com.github.saulocalixto.exercicios.Mdc;
+import com.github.saulocalixto.exercicios.Mdc;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
