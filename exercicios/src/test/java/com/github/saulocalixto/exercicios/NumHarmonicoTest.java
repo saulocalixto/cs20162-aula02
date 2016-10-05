@@ -5,7 +5,6 @@
  */
 package com.github.saulocalixto.exercicios;
 
-import com.github.saulocalixto.exercicios.NumHarmonico;
 import org.junit.Test;
 
 /**

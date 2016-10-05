@@ -1,4 +1,4 @@
-package test.java.com.github.saulocalixto.exercicios;
+package com.github.saulocalixto.exercicios;
 
 import com.github.saulocalixto.exercicios.Erastotenes;
 import org.junit.Test;
@@ -9,13 +9,15 @@ import org.junit.Test;
  */
 public class ErastotenesTest {
     
+    int[] a = {0,1,2,3,4,5,6,7,8,9,10};
+    
     /**
      *
      */
     @Test(expected = IllegalArgumentException.class)
     public void numInvalidoa() {
 
-        Erastotenes.Erastones(1);
+        Erastotenes.Erastones(1,a);
     }
 
     /**
@@ -24,7 +26,7 @@ public class ErastotenesTest {
     @Test
     public void numValido() {
         
-        Erastotenes.Erastones(5);
+        Erastotenes.Erastones(5,a);
     }
     
     /**

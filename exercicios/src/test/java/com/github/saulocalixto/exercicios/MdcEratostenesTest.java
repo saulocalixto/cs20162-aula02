@@ -1,4 +1,4 @@
-package test.java.com.github.saulocalixto.exercicios;
+package com.github.saulocalixto.exercicios;
 
 import com.github.saulocalixto.exercicios.MdcEratostenes;
 import org.junit.Test;

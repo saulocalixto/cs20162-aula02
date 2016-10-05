@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package test.java.com.github.saulocalixto.exercicios;
+package com.github.saulocalixto.exercicios;
 
 import com.github.saulocalixto.exercicios.Pro153;
 import org.junit.Test;

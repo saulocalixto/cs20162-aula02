@@ -17,14 +17,14 @@ public class Erastotenes {
      * @param n a quantidade de números que queremos ver se é primo
      * @return retorna os primos naquela sequênca n
      */
-    public static int Erastones (int n) {
+    public static int Erastones (int n, int[] a) {
+        
+        int i = 2, c = 0;
         
         if (n <= 1) {
             throw new IllegalArgumentException("Número inválido.");
         }
         
-        int i = 2, c = 0;
-        int[] a = new int[50];
         
         while (i <= n/2) {
             if(a[i] == 0) {

@@ -1,4 +1,4 @@
-package test.java.com.github.saulocalixto.exercicios;
+package com.github.saulocalixto.exercicios;
 
 import com.github.saulocalixto.exercicios.Mdc;
 import org.junit.After;
