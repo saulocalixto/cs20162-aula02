@@ -9,24 +9,42 @@ import org.junit.Test;
  */
 public class ErastotenesTest {
     
-    int[] a = {0,1,2,3,4,5,6,7,8,9,10};
+    static int[] arrayNormal = new int[1000];
+    static int[] arrayNotzero = { 3, 3, 3, 3, 3, 3, 3};
+    static int[] array = {3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
     
     /**
      *
      */
     @Test(expected = IllegalArgumentException.class)
-    public void numInvalidoa() {
+    public void numInvalidoanmenor1() {
 
-        Erastotenes.Erastones(1,a);
+        Erastotenes.Erastones(-1, arrayNormal);
     }
 
     /**
      *
      */
     @Test
-    public void numValido() {
+    public void numPrimo() {
         
-        Erastotenes.Erastones(5,a);
+        Erastotenes.Erastones(7,arrayNormal);
+    }
+    
+    @Test
+    public void numNaoPrimo() {
+        
+        Erastotenes.Erastones(6,arrayNormal);
+    }
+    @Test
+    public void arrayZero() {
+        
+        Erastotenes.Erastones(6,array);
+    }
+    @Test
+    public void arrayNaozero() {
+        
+        Erastotenes.Erastones(6,arrayNotzero);
     }
     
     /**

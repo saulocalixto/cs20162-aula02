@@ -17,7 +17,7 @@ public class Erastotenes {
      * @param n a quantidade de números que queremos ver se é primo
      * @return retorna os primos naquela sequênca n
      */
-    public static int Erastones (int n, int[] a) {
+    public static boolean Erastones (int n, int[] a) {
         
         int i = 2, c = 0;
         
@@ -26,7 +26,7 @@ public class Erastotenes {
         }
         
         
-        while (i <= n/2) {
+        while (i <= (n / 2)) {
             if(a[i] == 0) {
                 c = i + i;
                 while(c <= n) {
@@ -37,7 +37,7 @@ public class Erastotenes {
             i++;
         }
         
-        return (c);  
+        return (c == i);  
     }
     
 }
