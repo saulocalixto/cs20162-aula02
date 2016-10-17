@@ -1,6 +1,5 @@
 package com.github.saulocalixto.exercicios;
 
-import com.github.saulocalixto.exercicios.MdcEratostenes;
 import org.junit.Test;
 
 /**
@@ -41,6 +40,6 @@ public class MdcEratostenesTest {
      */
     @Test
     public void apenasParaAgradarJacocoTool100PorCentoCobertura() {
-        new MdcEratostenes();
-    }    
+        MdcEratostenes.chamarConstrutor();
+    }
 }

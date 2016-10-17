@@ -5,7 +5,6 @@
  */
 package com.github.saulocalixto.exercicios;
 
-import com.github.saulocalixto.exercicios.SomNumnat;
 import org.junit.Test;
 
 /**
@@ -37,8 +36,8 @@ public class SomNumnatTest {
      */
     @Test
     public void apenasParaAgradarJacocoTool100PorCentoCobertura() {
-        new SomNumnat();
-    }
+        SomNumnat.chamarConstrutor();
+    }   
 
    
     

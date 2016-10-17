@@ -50,7 +50,7 @@ public class ProdutoTest {
      */
     @Test
     public void apenasParaAgradarJacocoTool100PorCentoCobertura() {
-        new Produto();
+        Produto.chamarConstrutor();
     }
 
    

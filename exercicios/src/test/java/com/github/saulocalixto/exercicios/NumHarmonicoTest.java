@@ -36,9 +36,8 @@ public class NumHarmonicoTest {
      */
     @Test
     public void apenasParaAgradarJacocoTool100PorCentoCobertura() {
-        new NumHarmonico();
+        NumHarmonico.chamarConstrutor();
     }
 
-   
     
 }

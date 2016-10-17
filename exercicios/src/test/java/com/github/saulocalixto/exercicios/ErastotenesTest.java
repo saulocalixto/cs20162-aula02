@@ -19,7 +19,7 @@ public class ErastotenesTest {
     @Test(expected = IllegalArgumentException.class)
     public void numInvalidoanmenor1() {
 
-        Erastotenes.Erastones(-1, arrayNormal);
+        Erastotenes.obterPrimo(-1, arrayNormal);
     }
 
     /**
@@ -28,23 +28,36 @@ public class ErastotenesTest {
     @Test
     public void numPrimo() {
         
-        Erastotenes.Erastones(7,arrayNormal);
+        Erastotenes.obterPrimo(7,arrayNormal);
     }
     
     @Test
     public void numNaoPrimo() {
         
-        Erastotenes.Erastones(6,arrayNormal);
+        Erastotenes.obterPrimo(6,arrayNormal);
     }
     @Test
     public void arrayZero() {
         
-        Erastotenes.Erastones(6,array);
+        Erastotenes.obterPrimo(6,array);
     }
+    
+    @Test
+    public void arrayZeroV() {
+        
+        Erastotenes.obterPrimo(7,array);
+    }
+    
     @Test
     public void arrayNaozero() {
         
-        Erastotenes.Erastones(6,arrayNotzero);
+        Erastotenes.obterPrimo(6,arrayNotzero);
+    }
+    
+     @Test
+    public void arrayNaozeroV() {
+        
+        Erastotenes.obterPrimo(7,arrayNotzero);
     }
     
     /**
@@ -52,6 +65,6 @@ public class ErastotenesTest {
      */
     @Test
     public void apenasParaAgradarJacocoTool100PorCentoCobertura() {
-        new Erastotenes();
+        Erastotenes.chamarConstrutor();
     }    
 }

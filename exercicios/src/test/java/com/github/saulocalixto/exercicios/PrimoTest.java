@@ -5,13 +5,7 @@
  */
 package com.github.saulocalixto.exercicios;
 
-import com.github.saulocalixto.exercicios.Primo;
-import org.junit.After;
-import org.junit.AfterClass;
-import org.junit.Before;
-import org.junit.BeforeClass;
 import org.junit.Test;
-import static org.junit.Assert.*;
 
 /**
  *
@@ -51,7 +45,7 @@ public class PrimoTest {
      */
     @Test
     public void apenasParaAgradarJacocoTool100PorCentoCobertura() {
-        new Primo();
-    }
+        Primo.chamarConstrutor();
+    } 
 
 }

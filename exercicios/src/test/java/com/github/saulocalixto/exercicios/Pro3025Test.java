@@ -63,7 +63,7 @@ public class Pro3025Test {
      */
     @Test
     public void apenasParaAgradarJacocoTool100PorCentoCobertura() {
-        new Pro3025();
-    }
+        Pro3025.chamarConstrutor();
+    }   
 
 }

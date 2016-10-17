@@ -5,7 +5,6 @@
  */
 package com.github.saulocalixto.exercicios;
 
-import com.github.saulocalixto.exercicios.Pro153;
 import org.junit.Test;
 
 /**
@@ -36,9 +35,15 @@ public class Pro153Test {
      *
      */
     @Test
-    public void numValido() {
+    public void numValidoF() {
         
         Pro153.resultado(500);
+    }
+    
+    @Test
+    public void numValidoV() {
+        
+        Pro153.resultado(153);
     }
     
     /**
@@ -46,9 +51,7 @@ public class Pro153Test {
      */
     @Test
     public void apenasParaAgradarJacocoTool100PorCentoCobertura() {
-        new Pro153();
-    }
+        Pro153.chamarConstrutor();
+    }   
 
-   
-    
 }

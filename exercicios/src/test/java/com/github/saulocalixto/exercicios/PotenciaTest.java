@@ -5,13 +5,7 @@
  */
 package com.github.saulocalixto.exercicios;
 
-import com.github.saulocalixto.exercicios.Potencia;
-import org.junit.After;
-import org.junit.AfterClass;
-import org.junit.Before;
-import org.junit.BeforeClass;
 import org.junit.Test;
-import static org.junit.Assert.*;
 
 /**
  *
@@ -60,7 +54,7 @@ public class PotenciaTest {
      */
     @Test
     public void apenasParaAgradarJacocoTool100PorCentoCobertura() {
-        new Potencia();
-    }
+        Potencia.chamarConstrutor();
+    }    
 
 }
