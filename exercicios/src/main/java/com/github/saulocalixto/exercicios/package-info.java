@@ -21,7 +21,7 @@
  * @see com.github.saulocalixto.exercicios.Primo
  * @see com.github.saulocalixto.exercicios.Pro153
  * @see com.github.saulocalixto.exercicios.Pro3025
- * @see com.github.saulocalixto.exercicios.Prduto
+ * @see com.github.saulocalixto.exercicios.Produto
  * @see com.github.saulocalixto.exercicios.SomNumnat
  */
 package com.github.saulocalixto.exercicios;

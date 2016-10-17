@@ -1,6 +1,5 @@
 package com.github.saulocalixto.exercicios;
 
-import com.github.saulocalixto.exercicios.Erastotenes;
 import org.junit.Test;
 
 /**
