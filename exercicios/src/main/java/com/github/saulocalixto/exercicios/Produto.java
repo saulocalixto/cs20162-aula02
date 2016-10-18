@@ -37,6 +37,7 @@ public final class Produto {
     /**
      * @param a Número para fazer o produto
      * @param b Número para fazer o produto
+     * @throws IllegalArgumentException a e b não pode mser menor que 0
      * @return O produto de a e b.
      */
     public static int resultado(final int a, final int b) {

@@ -31,6 +31,8 @@ public final class Pro3025 {
 
     /**
      * @param n Número a ser verificado se tem a propriedade 3025
+     * @throws IllegalArgumentException n não pode ser menor que 0 e não pode
+     * ser maior que 9999
      * @return Se o número tem a propriedade ou não.
      */
     public static boolean resultado(final int n) {

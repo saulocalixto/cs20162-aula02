@@ -22,6 +22,8 @@ public final class Potencia {
     /**
      * @param x número que vai receber a potência
      * @param y potência do número x
+     * @throws IllegalArgumentException x não pode ser menor que 0 e y não pode
+     * ser menor que 0
      * @return retorna o número x ^ y.
      */
     public static int resultado(final int x, final int y) {

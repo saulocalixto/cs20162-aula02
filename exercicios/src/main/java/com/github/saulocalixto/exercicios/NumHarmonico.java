@@ -21,6 +21,7 @@ public final class NumHarmonico {
 
     /**
      * @param num representa o n-ésimo número harmônico que se quer descobrir.
+     * @throws IllegalArgumentException num não pode ser menor que 1
      * @return o n-ésimo número Harmônico
      */
     public static int harmonico(final int num) {

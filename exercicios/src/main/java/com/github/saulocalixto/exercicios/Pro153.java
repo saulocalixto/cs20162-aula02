@@ -43,6 +43,8 @@ public final class Pro153 {
 
     /**
      * @param n Número a ser verificado se tem a propriedade 153.
+     * @throws IllegalArgumentException n não pode ser menor que 0 e não pode
+     * ser maior que 9999
      * @return Retorna true caso o número tenha a propriedade 153. Retorna
      * false caso não.
      */

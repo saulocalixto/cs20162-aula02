@@ -28,6 +28,7 @@ public final class Erastotenes {
     /**
      * @param n a quantidade de números que queremos ver se é primo
      * @param a vetor para fazer controle dos primos
+     * @throws IllegalArgumentException n não pode ser menor ou igual a 1
      * @return retorna os primos naquela sequênca n
      */
     public static boolean obterPrimo(final int n, final int[] a) {

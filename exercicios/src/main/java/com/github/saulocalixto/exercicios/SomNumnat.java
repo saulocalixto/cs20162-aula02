@@ -23,6 +23,7 @@ public final class SomNumnat {
 
     /**
      * @param i representa quantos números naturais serão somados.
+     * @throws IllegalArgumentException i não pode ser menor que 0
      * @return o resultado da soma dos primeiros naturais.
      */
     public static int somNume(final int i) {

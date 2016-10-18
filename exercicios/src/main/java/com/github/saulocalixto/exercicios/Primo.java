@@ -28,6 +28,7 @@ public final class Primo {
     /**
      *
      * @param n Número o qual quer descobrir se é primo ou não.
+     * @throws IllegalArgumentException n não pode ser menor ou igual a 1
      * @return Se é primo ou não.
      */
     public static boolean primo(final int n) {

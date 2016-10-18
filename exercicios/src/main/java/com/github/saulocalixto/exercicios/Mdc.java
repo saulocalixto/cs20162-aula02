@@ -12,7 +12,6 @@ package com.github.saulocalixto.exercicios;
 public final class Mdc {
 
     /**
-     *
      * Construtor privado para atender ao checkstyle.
      */
     private Mdc() {
@@ -29,6 +28,8 @@ public final class Mdc {
      *
      * @param num1 um dos números que se quer achar o mdc
      * @param num2 outro número para achar o mdc
+     * @throws IllegalArgumentException b não pode ser menor ou igual a "a"
+     * e b não pode ser menor que 0
      * @return o mdc dos dois números
      */
 

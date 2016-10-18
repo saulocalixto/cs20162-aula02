@@ -30,6 +30,8 @@ public final class MdcEratostenes {
      *
      * @param num1 número para achar o mdc
      * @param num2 número para achar o mdc
+     * @throws IllegalArgumentException num2 não pode ser menor ou igual a
+     * num1 e num2 não pode ser menor que 0
      * @return retorna o mdc utilizando o crivo de Eratostenes
      */
     public static int mdcErastones(final int num1, final int num2) {
