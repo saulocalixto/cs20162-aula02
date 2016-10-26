@@ -1,3 +1,9 @@
+/*
+ * Copyright (c) 2016. Engenharia de Software - Instituto de Informática (UFG)
+ * Creative Commons Attribution 4.0 International License.
+ * Discente : Saulo de Araújo Calixto
+ */
+
 package com.github.saulocalixto.exercicios;
 
 /**
@@ -23,13 +29,14 @@ public final class Potencia {
      * @param x número que vai receber a potência
      * @param y potência do número x
      * @throws IllegalArgumentException x não pode ser menor que 0 e y não pode
-     * ser menor que 0
+     * ser menor que 0.
      * @return retorna o número x ^ y.
      */
     public static int resultado(final int x, final int y) {
 
         if (x < 0 || y < 0) {
-            throw new IllegalArgumentException("Número inválido.");
+            throw new IllegalArgumentException("Números de entrada precisam"
+                    + "ser maior ou igual a zero.");
         }
 
         int cont = 1, potencia = 1;

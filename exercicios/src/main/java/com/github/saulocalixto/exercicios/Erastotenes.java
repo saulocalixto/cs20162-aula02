@@ -1,6 +1,7 @@
 /*
- * Copyright (c) 2016. Fábrica de Software - Instituto de Informática (UFG)
+ * Copyright (c) 2016. Engenharia de Software - Instituto de Informática (UFG)
  * Creative Commons Attribution 4.0 International License.
+ * Discente : Saulo de Araújo Calixto
  */
 
 package com.github.saulocalixto.exercicios;
@@ -29,14 +30,15 @@ public final class Erastotenes {
      * @param n a quantidade de números que queremos ver se é primo
      * @param a vetor para fazer controle dos primos
      * @throws IllegalArgumentException n não pode ser menor ou igual a 1
-     * @return retorna os primos naquela sequênca n
+     * @return retorna se n é primo ou não.
      */
     public static boolean obterPrimo(final int n, final int[] a) {
 
         int i = 2, c = 0;
 
         if (n <= 1) {
-            throw new IllegalArgumentException("Número inválido.");
+            throw new IllegalArgumentException("Número não pode ser menor ou"
+                    + " igual a 1.");
         }
 
         while (i <= (n / 2)) {

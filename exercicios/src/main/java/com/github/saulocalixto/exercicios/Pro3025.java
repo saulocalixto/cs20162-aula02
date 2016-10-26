@@ -1,3 +1,9 @@
+/*
+ * Copyright (c) 2016. Engenharia de Software - Instituto de Informática (UFG)
+ * Creative Commons Attribution 4.0 International License.
+ * Discente : Saulo de Araújo Calixto
+ */
+
 package com.github.saulocalixto.exercicios;
 
 /**
@@ -25,9 +31,9 @@ public final class Pro3025 {
     private static final int MAX = 9999;
 
     /**
-     * Constante contendo o valor 100.
+     * Constante contendo o valor 100 para poder separar o número.
      */
-    private static final int CEM = 100;
+    private static final int DIVISORCEM = 100;
 
     /**
      * @param n Número a ser verificado se tem a propriedade 3025
@@ -42,8 +48,8 @@ public final class Pro3025 {
             throw new IllegalArgumentException("Número inválido.");
         }
 
-        double i = n / CEM;
-        double j = n % CEM;
+        double i = n / DIVISORCEM;
+        double j = n % DIVISORCEM;
         double resultado = (i + j) * (i + j);
 
         return (resultado == n);

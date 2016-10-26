@@ -1,6 +1,7 @@
 /*
- * Copyright (c) 2016. Fábrica de Software - Instituto de Informática (UFG)
+ * Copyright (c) 2016. Engenharia de Software - Instituto de Informática (UFG)
  * Creative Commons Attribution 4.0 International License.
+ * Discente : Saulo de Araújo Calixto
  */
 
 package com.github.saulocalixto.exercicios;
@@ -28,9 +29,9 @@ public final class Mdc {
      *
      * @param num1 um dos números que se quer achar o mdc
      * @param num2 outro número para achar o mdc
-     * @throws IllegalArgumentException b não pode ser menor ou igual a "a"
-     * e b não pode ser menor que 0
-     * @return o mdc dos dois números
+     * @throws IllegalArgumentException num2 não pode ser menor ou igual a num1
+     * e num2 não pode ser menor que 0
+     * @return o mdc de num1 e num2.
      */
 
         public static int mDc(final int num1, final int num2) {

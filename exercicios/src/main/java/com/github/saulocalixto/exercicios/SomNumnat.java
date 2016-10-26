@@ -1,3 +1,9 @@
+/*
+ * Copyright (c) 2016. Engenharia de Software - Instituto de Informática (UFG)
+ * Creative Commons Attribution 4.0 International License.
+ * Discente : Saulo de Araújo Calixto
+ */
+
 package com.github.saulocalixto.exercicios;
 
 
@@ -28,7 +34,7 @@ public final class SomNumnat {
      */
     public static int somNume(final int i) {
         if (i < 0) {
-            throw new IllegalArgumentException("Número inválido.");
+            throw new IllegalArgumentException("Número menor que 0 inválido.");
         }
         int resultado;
 

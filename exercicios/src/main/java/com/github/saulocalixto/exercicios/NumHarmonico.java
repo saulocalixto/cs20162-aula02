@@ -1,7 +1,13 @@
+/*
+ * Copyright (c) 2016. Engenharia de Software - Instituto de Informática (UFG)
+ * Creative Commons Attribution 4.0 International License.
+ * Discente : Saulo de Araújo Calixto
+ */
+
 package com.github.saulocalixto.exercicios;
 
 /**
- *Algoritmo que implementa o n-ésimo número Harmônico.
+ *  Algoritmo que implementa o n-ésimo número Harmônico.
  * @author Saulo Calixto
  */
 public final class NumHarmonico {
@@ -27,7 +33,8 @@ public final class NumHarmonico {
     public static int harmonico(final int num) {
 
         if (num < 1) {
-            throw new IllegalArgumentException("Número inválido.");
+            throw new IllegalArgumentException("Número precisa ser maior que"
+                    + "um.");
         }
 
         int i = 2, s = 1;

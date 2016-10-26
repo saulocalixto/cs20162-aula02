@@ -1,6 +1,7 @@
 /*
- * Copyright (c) 2016. Fábrica de Software - Instituto de Informática (UFG)
+ * Copyright (c) 2016. Engenharia de Software - Instituto de Informática (UFG)
  * Creative Commons Attribution 4.0 International License.
+ * Discente : Saulo de Araújo Calixto
  */
 
 package com.github.saulocalixto.exercicios;
@@ -34,7 +35,8 @@ public final class Primo {
     public static boolean primo(final int n) {
 
         if (n <= 1) {
-            throw new IllegalArgumentException("Número inválido.");
+            throw new IllegalArgumentException("Número a ser analisado precisa"
+                    + "ser maior que 1.");
         }
 
         for (int cont = 2; cont <= (n - 1); cont++) {

@@ -1,3 +1,9 @@
+/*
+ * Copyright (c) 2016. Engenharia de Software - Instituto de Informática (UFG)
+ * Creative Commons Attribution 4.0 International License.
+ * Discente : Saulo de Araújo Calixto
+ */
+
 package com.github.saulocalixto.exercicios;
 
 /**
@@ -27,19 +33,19 @@ public final class Pro153 {
     private static final int MAX = 9999;
 
     /**
-     * Constante contendo o valor 100.
+     * Constante contendo o valor 100 para poder separar o número.
      */
-    private static final int CEM = 100;
+    private static final int DIVISORCEM = 100;
 
     /**
-     * Constante contendo o valor 10.
+     * Constante contendo o valor 10 para poder separar o número.
      */
-    private static final int DEZ = 10;
+    private static final int DIVISORDEZ = 10;
 
     /**
-     * Constante contendo o valor 3.
+     * Número que representa a potência a qual será elevado o número.
      */
-    private static final int TRES = 3;
+    private static final int POTENCIA = 3;
 
     /**
      * @param n Número a ser verificado se tem a propriedade 153.
@@ -57,11 +63,11 @@ public final class Pro153 {
 
         int i, j, k;
 
-        i = n / CEM;
-        j = (n - CEM * i) / DEZ;
-        k = n % DEZ;
-        int resultado = (int) Math.pow(j, TRES) + (int) Math.pow(i, TRES)
-                + (int) Math.pow(k, TRES);
+        i = n / DIVISORCEM;
+        j = (n - DIVISORCEM * i) / DIVISORDEZ;
+        k = n % DIVISORDEZ;
+        int resultado = (int) Math.pow(j, POTENCIA)
+                + (int) Math.pow(i, POTENCIA) + (int) Math.pow(k, POTENCIA);
 
         return (n == resultado);
     }
